@@ -1,0 +1,58 @@
+ */body {
+     font-family: Lato
+ }
+ h1, h2, h3, h4, h5, h6 {
+     font-family: Catamaran;
+     font-weight: 800!important
+ }
+ .boton-cabecera {
+     text-transform: uppercase; /* Texto en mayúscula */
+     padding: 1.5rem 3rem; /* pad(top,bottom): 1.5rem (left, right): 3.rem */
+ }
+ .fondo-negro {
+     background-color: #000!important
+ }
+ .borde-redondeado {
+     border-radius: 5rem
+ }
+ .navbar-custom .navbar-brand .navbar-nav .nav-item .nav-link {
+     text-transform: uppercase;
+ }
+ header.cabecera {
+     position: relative;
+     overflow: hidden;
+     padding-top: 12rem;
+     padding-bottom: 7rem;
+     background: linear-gradient(0deg, #ff6a00 0, #ee0979 100%);
+ }
+
+ @media (min-width: 992px) {
+     header.cabecera .contenido-cabecera .titulo {
+         font-size: 6rem
+     }
+     header.cabecera .contenido-cabecera .subtitulo {
+         font-size: 4rem
+     }
+ }
+
+/* Sobre escribir colores de los botones */
+ .btn-primary {
+     background-color: #ee0979;
+     border-color: #ee0979
+ }
+ .btn-primary:active,
+ .btn-primary:focus,
+ .btn-primary:hover {
+     background-color: #bd0760!important;
+     border-color: #bd0760!important
+ }
+ .btn-secondary {
+     background-color: #ff6a00;
+     border-color: #ff6a00
+ }
+ .btn-secondary:active,
+ .btn-secondary:focus,
+ .btn-secondary:hover {
+     background-color: #c50!important;
+     border-color: #c50!important
+ }
